@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<script src="/js/angular.js"></script>
+    <script src="/js/angular-ui-router.js"></script>
+<title>My first WebApp</title>
+</head>
+<body ng-app="myApp">
+    <!-- Begin page content -->
+		<div class="page-header">
+			<h3>Welcome!</h3>
+		</div>
+	
+	<!-- Navigation-->
+		<div ng-controller="navig">
+			<ul>
+				<li ng-repeat = "category in categories">{{category.name}}</li>
+			</ul>
+		 </div>
+		  
+	
+	<!-- login-->
+
+	<!-- search-->
+	
+	<!-- module and controller-->
+	<script  src="/js/mainController.js></script>
+</body>
+</html>
